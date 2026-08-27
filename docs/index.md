@@ -1,24 +1,58 @@
 # Study Spaces
 
-Study Spaces is an Android app for owners and managers of study halls, reading rooms and coworking
-spaces. It records members, seats, shifts, fee payments and expenses, and issues receipts.
+An Android app for owners and managers of study halls, reading rooms and coworking spaces. It records
+members, seats, shifts, fee payments and expenses, and issues receipts.
 
 !!! warning "These documents are drafts"
 
     The policies on this site are not yet in force. They are published here for review and are
     pending legal sign-off. Do not rely on them.
 
-## Documents
+<div class="grid cards" markdown>
 
-| | |
-|---|---|
-| [Privacy Policy](privacy.md) | What personal data the app handles, why, and your rights over it |
-| [Terms of Service](terms.md) | The agreement between us and account holders |
-| [Refund & Cancellation](refunds.md) | How subscriptions are billed, cancelled and refunded |
-| [Delete your account](delete-account.md) | How to delete your account and everything in it |
-| [Support](support.md) | How to reach us |
+-   :material-shield-lock-outline:{ .lg .middle } **Privacy Policy**
 
-## Two things worth knowing up front
+    ---
+
+    What personal data the app handles, why, where it is stored, and the rights you have over it.
+
+    [:octicons-arrow-right-24: Read the policy](privacy.md)
+
+-   :material-file-document-outline:{ .lg .middle } **Terms of Service**
+
+    ---
+
+    The agreement between us and account holders — what the app is, and what it is not.
+
+    [:octicons-arrow-right-24: Read the terms](terms.md)
+
+-   :material-cash-refund:{ .lg .middle } **Refund & Cancellation**
+
+    ---
+
+    How subscriptions are billed, how to cancel, and when a refund applies.
+
+    [:octicons-arrow-right-24: Read the policy](refunds.md)
+
+-   :material-account-remove-outline:{ .lg .middle } **Delete your account**
+
+    ---
+
+    How to delete your account and everything in it, from the app or without it.
+
+    [:octicons-arrow-right-24: Delete your account](delete-account.md)
+
+-   :material-lifebuoy:{ .lg .middle } **Support**
+
+    ---
+
+    How to reach us, what to include, and what we can and cannot help with.
+
+    [:octicons-arrow-right-24: Contact us](support.md)
+
+</div>
+
+## Two things worth knowing
 
 **We are not a payment service.** Fees are paid to a study space by its members directly — in cash,
 UPI, card or however they arrange it. That money never passes through us. The app records that a
@@ -26,4 +60,4 @@ payment happened and prints a receipt; it does not move funds.
 
 **Student records belong to the study space, not to us.** If your details are held in Study Spaces
 because you attend a study hall, that hall decides what is collected and for how long. Your requests
-go to them — see [Privacy Policy §15](privacy.md).
+go to them, not to us — see [Privacy Policy §15](privacy.md).

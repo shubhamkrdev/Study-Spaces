@@ -1,5 +1,230 @@
-/* Legal text carries long inline literals — placeholder markers now, email addresses and an
-   entity name later. Without this they overflow the viewport on a phone. */
+/* Serif display faces for headings. Body stays Inter (set in mkdocs.yml) — the pairing
+   gives legal text an editorial weight that Material's default sans alone does not. */
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap");
+
+/* ---------------------------------------------------------------- palette */
+
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color:        #0f5f5c;
+  --md-primary-fg-color--light: #17807b;
+  --md-primary-fg-color--dark:  #0a4442;
+  --md-primary-bg-color:        #ffffff;
+  --md-primary-bg-color--light: #ffffffb3;
+  --md-accent-fg-color:         #0d7d76;
+  --md-typeset-a-color:         #0f5f5c;
+
+  --ss-surface:  #f6f7f6;
+  --ss-border:   #dfe3e1;
+  --ss-muted:    #5b6763;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color:        #7fd8d0;
+  --md-primary-fg-color--light: #a5e6e0;
+  --md-primary-fg-color--dark:  #0f2b2a;
+  --md-primary-bg-color:        #0d1b1a;
+  --md-accent-fg-color:         #5ecfc5;
+  --md-typeset-a-color:         #7fd8d0;
+
+  --md-default-bg-color:        #101817;
+  --md-default-bg-color--light: #16211f;
+
+  --ss-surface:  #16211f;
+  --ss-border:   #263533;
+  --ss-muted:    #9bada9;
+}
+
+/* Header reads as a solid brand bar in light mode; in dark the primary is a light
+   tint, so the bar takes the page background instead of an unreadable pale block. */
+[data-md-color-scheme="slate"] .md-header,
+[data-md-color-scheme="slate"] .md-tabs {
+  background-color: var(--md-default-bg-color--light);
+  color: var(--md-default-fg-color);
+}
+
+/* ------------------------------------------------------------- typography */
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+  font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
+  letter-spacing: -0.01em;
+}
+
+.md-typeset h1 {
+  font-weight: 700;
+  font-size: 2.1rem;
+  line-height: 1.2;
+  color: var(--md-default-fg-color);
+  margin-bottom: 0.4em;
+}
+
+.md-typeset h2 {
+  font-weight: 600;
+  font-size: 1.45rem;
+  margin-top: 2.2em;
+  padding-top: 1.2em;
+  border-top: 1px solid var(--ss-border);
+}
+
+/* The first h2 follows the title block, where a rule reads as a stray divider. Same for an
+   h2 after an explicit `---`, which otherwise draws two lines with dead space between. */
+.md-typeset h1 + h2,
+.md-typeset hr + h2 {
+  border-top: 0;
+  padding-top: 0;
+  margin-top: 1.4em;
+}
+
+.md-typeset h3 {
+  font-weight: 600;
+  font-size: 1.15rem;
+  margin-top: 1.8em;
+}
+
+/* Legal paragraphs are long; a capped measure keeps them readable on wide screens. */
+.md-content__inner {
+  max-width: 48rem;
+  margin-inline: auto;
+  padding-bottom: 3rem;
+}
+
+.md-typeset {
+  font-size: 0.79rem;
+  line-height: 1.72;
+}
+
+.md-typeset p,
+.md-typeset li {
+  hyphens: none;
+}
+
+/* Legal text carries long inline literals — placeholder markers now, email addresses and
+   an entity name later. Without this they overflow the viewport on a phone. */
 .md-typeset code {
   word-break: break-word;
+  font-size: 0.84em;
+  background-color: var(--ss-surface);
+  border: 1px solid var(--ss-border);
+  padding: 0.1em 0.36em;
+}
+
+/* --------------------------------------------------------------- tables */
+
+.md-typeset table:not([class]) {
+  border: 1px solid var(--ss-border);
+  border-radius: 6px;
+  font-size: 0.76rem;
+  box-shadow: none;
+}
+
+.md-typeset table:not([class]) th {
+  background-color: var(--ss-surface);
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  border-bottom: 1px solid var(--ss-border);
+}
+
+.md-typeset table:not([class]) td {
+  border-top: 1px solid var(--ss-border);
+  vertical-align: top;
+}
+
+.md-typeset table:not([class]) tr:hover {
+  background-color: var(--ss-surface);
+}
+
+/* ---------------------------------------------------- admonitions & rules */
+
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 6px;
+  border-width: 1px;
+  border-left-width: 3px;
+  box-shadow: none;
+  font-size: 0.76rem;
+}
+
+.md-typeset hr {
+  border-bottom: 1px solid var(--ss-border);
+}
+
+.md-typeset blockquote {
+  border-left: 3px solid var(--ss-border);
+  color: var(--ss-muted);
+}
+
+/* ---------------------------------------------------------- grid cards */
+
+.md-typeset .grid.cards > ul > li {
+  border: 1px solid var(--ss-border);
+  border-radius: 8px;
+  box-shadow: none;
+  padding: 1.1rem 1.2rem;
+  transition: border-color 160ms, transform 160ms;
+}
+
+.md-typeset .grid.cards > ul > li:hover {
+  border-color: var(--md-accent-fg-color);
+  transform: translateY(-2px);
+}
+
+.md-typeset .grid.cards > ul > li > hr {
+  margin: 0.7em 0;
+}
+
+/* ------------------------------------------------------------- chrome */
+
+.md-nav__title {
+  font-weight: 600;
+}
+
+.md-footer-meta {
+  background-color: var(--ss-surface);
+  color: var(--ss-muted);
+}
+
+.md-footer-meta .md-copyright,
+.md-footer-meta .md-copyright__highlight {
+  color: var(--ss-muted);
+}
+
+.md-source-file,
+.md-typeset .md-source-file__fact {
+  color: var(--ss-muted);
+}
+
+/* --------------------------------------------------------------- print */
+
+/* Policies get printed and filed. Drop the app chrome, keep the words. */
+@media print {
+  .md-header,
+  .md-sidebar,
+  .md-footer,
+  .md-top,
+  .md-content__button {
+    display: none !important;
+  }
+
+  .md-content__inner {
+    max-width: none;
+    margin: 0;
+  }
+
+  .md-typeset h2 {
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+
+  .md-typeset table:not([class]) {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  /* A printed policy that cites a page nobody can click needs the address spelled out. */
+  .md-typeset a[href^="http"]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
+    word-break: break-all;
+  }
 }

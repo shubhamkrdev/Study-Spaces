@@ -1,30 +1,38 @@
 site_name: Study Spaces
 site_description: Legal documents and account help for the Study Spaces Android app
-# Same sentinel as legal_base_url in the app's strings.xml, so one grep finds every place
-# the real domain has to be filled in.
-site_url: https://REPLACE-ME.example/
+# Changes to the custom domain at step 4 of the plan. Not the same value as the app's
+# legal_base_url sentinel — that one stays until the domain is real.
+site_url: https://shubhamkrdev.github.io/Study-Spaces/
 
 theme:
   name: material
   language: en
+  icon:
+    logo: material/book-open-page-variant
+  favicon: assets/favicon.svg
+  font:
+    text: Inter
+    code: JetBrains Mono
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
-      accent: indigo
+      primary: custom
+      accent: custom
       toggle:
-        icon: material/brightness-7
+        icon: material/weather-night
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: indigo
-      accent: indigo
+      primary: custom
+      accent: custom
       toggle:
-        icon: material/brightness-4
+        icon: material/weather-sunny
         name: Switch to light mode
   features:
+    - navigation.instant
+    - navigation.instant.progress
     - navigation.top
-    - navigation.sections
+    - navigation.tracking
     - toc.follow
     - search.suggest
     - search.highlight
@@ -50,12 +58,21 @@ plugins:
 markdown_extensions:
   - admonition
   - attr_list
+  - md_in_html
   - tables
   - toc:
       permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 extra:
-  social: []
+  generator: false
+
+copyright: >
+  © 2026 <code>[PLACEHOLDER — registered legal entity name]</code>
 
 extra_css:
   - stylesheets/extra.css

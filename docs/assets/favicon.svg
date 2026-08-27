@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Study Spaces">
+  <rect width="64" height="64" rx="14" fill="#0f5f5c"/>
+  <path d="M14 20.5c6.2-2.6 11.6-2.6 17 0v25c-5.4-2.6-10.8-2.6-17 0z" fill="#ffffff" opacity=".92"/>
+  <path d="M50 20.5c-6.2-2.6-11.6-2.6-17 0v25c5.4-2.6 10.8-2.6 17 0z" fill="#ffffff" opacity=".62"/>
+</svg>
