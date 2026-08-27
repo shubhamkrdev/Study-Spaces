@@ -179,8 +179,8 @@ Under the DPDP Act you may:
 - **Nominate** another person to exercise these rights if you die or become incapacitated
 - **Complain** to our Grievance Officer (§17), and then to the Data Protection Board of India
 
-To exercise any of these, contact us at `[PLACEHOLDER — privacy@yourdomain]`. We respond within
-`[PLACEHOLDER — commit to a period, e.g. 30 days]`.
+To exercise any of these, contact us at [shubhamkr.devapps@gmail.com](mailto:shubhamkr.devapps@gmail.com). We respond within
+**30 days**.
 
 **For a study space's students:** these requests go to the space that holds your records. See §15.
 
@@ -191,9 +191,9 @@ Full instructions, including what is destroyed and what survives, are on
 
 You can request deletion of your account and its data at any time:
 
-- **On the web:** `[PLACEHOLDER — https://yourdomain/delete-account]`, without installing or opening
+- **On the web:** <https://shubhamkrdev.github.io/Study-Spaces/delete-account/>, without installing or opening
   the app
-- **By email:** `[PLACEHOLDER — privacy@yourdomain]`
+- **By email:** [shubhamkr.devapps@gmail.com](mailto:shubhamkr.devapps@gmail.com)
 
 **What is deleted:** your account and sign-in identity; your profile (name, email, phone, address);
 **every space you own and all of its records** — members, payments, receipts, shifts, expenses,
@@ -216,7 +216,7 @@ email, address, guardian details, date of birth, blood group, ID proof, seat, or
 notes, and archives the record. It is **irreversible**, and the fee history remains for the
 retention period in §9.
 
-**Timing.** Deletion completes within `[PLACEHOLDER — e.g. 30 days]`. Copies may persist in the
+**Timing.** Deletion completes within **30 days**. Copies may persist in the
 7-day recovery window described in §8 and in routine backups for a short period after that.
 
 ## 12. Security
@@ -260,7 +260,7 @@ collect and how long to keep it — it is the Data Fiduciary; we only store and 
 them.
 
 **Please direct requests to access, correct or erase your data to the study space itself.** If they
-do not respond, you may contact us at `[PLACEHOLDER — privacy@yourdomain]` and we will assist the
+do not respond, you may contact us at [shubhamkr.devapps@gmail.com](mailto:shubhamkr.devapps@gmail.com) and we will assist the
 space in responding, but we cannot act on their data without their instruction.
 
 ## 16. Changes to this policy
@@ -272,7 +272,7 @@ app before they take effect. The "last updated" date at the top always reflects 
 
 **Grievance contact** (DPDP Act, 2023):
 
-- Email: `[PLACEHOLDER — grievance@yourdomain]`
+- Email: [shubhamkr.devapps@gmail.com](mailto:shubhamkr.devapps@gmail.com)
 - Address: `[PLACEHOLDER — registered address]`
 - Responsible person: `[PLACEHOLDER — grievance contact, name or role]`
 
@@ -282,8 +282,8 @@ questions on its behalf, which a monitored role address satisfies. We are not a 
 Fiduciary. Note also that for **student** data the space owner is the Data Fiduciary, so that
 grievance duty is theirs — ours covers account holders only.
 
-**General privacy queries:** `[PLACEHOLDER — privacy@yourdomain]`
+**General privacy queries:** [shubhamkr.devapps@gmail.com](mailto:shubhamkr.devapps@gmail.com)
 
-We acknowledge grievances within `[PLACEHOLDER — e.g. 7 days]` and aim to resolve them within
-`[PLACEHOLDER — e.g. 30 days]`. If you are not satisfied, you may complain to the **Data Protection
+We acknowledge grievances within **7 days** and aim to resolve them within
+**30 days**. If you are not satisfied, you may complain to the **Data Protection
 Board of India**.

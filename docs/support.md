@@ -1,22 +1,29 @@
 # Support
 
-!!! warning "Draft"
+!!! warning "Draft — not yet in force"
 
-    The addresses below are placeholders. This page is not yet in force.
+    This page is published for review. Values shown as `[PLACEHOLDER — …]` are not yet filled in.
 
 ## Contact
 
-| Purpose | Address |
-|---|---|
-| General support and billing | `[PLACEHOLDER — support@yourdomain]` |
-| Privacy questions and data requests | `[PLACEHOLDER — privacy@yourdomain]` |
-| Grievances under the DPDP Act, 2023 | `[PLACEHOLDER — grievance@yourdomain]` |
+One address handles support, privacy and grievances:
+
+**[shubhamkr.devapps@gmail.com](mailto:shubhamkr.devapps@gmail.com)**
 
 `[PLACEHOLDER — registered legal entity name]`
 `[PLACEHOLDER — registered address]`
 
-We aim to respond within a few working days. There is no phone support and no guaranteed response
-time.
+There is no phone support. Response times we commit to:
+
+| Request | We respond within |
+|---|---|
+| General support and billing | a few working days |
+| Data access, correction or erasure | 30 days |
+| Grievance — acknowledgement | 7 days |
+| Grievance — resolution | 30 days |
+
+The last three are the periods stated in the [Privacy Policy](privacy.md); they are commitments, not
+targets.
 
 ## What to include
 

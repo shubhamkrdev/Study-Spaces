@@ -16,9 +16,9 @@ Deletion is immediate and cannot be undone.
 
 ## Deleting without the app
 
-If you no longer have the app installed, email `[PLACEHOLDER — privacy@yourdomain]` from the address
+If you no longer have the app installed, email [shubhamkr.devapps@gmail.com](mailto:shubhamkr.devapps@gmail.com) from the address
 your account uses. We will verify it is you and complete the deletion within
-`[PLACEHOLDER — e.g. 30 days]`.
+**30 days**.
 
 ## What gets deleted
 
@@ -37,13 +37,13 @@ records are untouched — they belong to that owner, not to you.
 afterwards.
 
 Copies may persist briefly in encrypted database backups, which roll off automatically within
-`[PLACEHOLDER — e.g. 7 days]`. They are not accessible in the running service.
+**7 days**. They are not accessible in the running service.
 
 ## If you are a student at a study space
 
 Your details were entered by the space you attend, not by us. **Ask that study space to delete your
 record** — they control it and can erase it from within the app. If they do not respond, contact
-`[PLACEHOLDER — privacy@yourdomain]` and we will assist them in responding, but we cannot act on
+[shubhamkr.devapps@gmail.com](mailto:shubhamkr.devapps@gmail.com) and we will assist them in responding, but we cannot act on
 their data without their instruction.
 
 ## If your space has other staff
@@ -53,4 +53,4 @@ them. Tell your team first.
 
 ---
 
-`[PLACEHOLDER — registered legal entity name]` · `[PLACEHOLDER — privacy@yourdomain]`
+`[PLACEHOLDER — registered legal entity name]` · [shubhamkr.devapps@gmail.com](mailto:shubhamkr.devapps@gmail.com)

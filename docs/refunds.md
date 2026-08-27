@@ -49,7 +49,7 @@ We will consider a refund where:
 
 Because Google is the merchant of record, **most refunds are requested through Google Play**, which
 has its own refund window and process. If Google declines and you believe one of the cases above
-applies, write to `[PLACEHOLDER — support@yourdomain]` with your order id and we will review it.
+applies, write to [shubhamkr.devapps@gmail.com](mailto:shubhamkr.devapps@gmail.com) with your order id and we will review it.
 
 Refunds, when granted, go back to the original payment method. We cannot refund to a different
 account.
@@ -67,6 +67,6 @@ If a member wants their money back, you refund them however you took it.
 
 ## 6. Contact
 
-`[PLACEHOLDER — support@yourdomain]` · `[PLACEHOLDER — registered address]`
+[shubhamkr.devapps@gmail.com](mailto:shubhamkr.devapps@gmail.com) · `[PLACEHOLDER — registered address]`
 
 Include your order id and the account email. We aim to respond within a few working days.

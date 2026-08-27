@@ -121,7 +121,7 @@ interrupt it. Because the app works offline, most of your day-to-day work contin
 
 ## 11. Support
 
-Support is by email at `[PLACEHOLDER — support@yourdomain]`. We aim to respond within a few working
+Support is by email at [shubhamkr.devapps@gmail.com](mailto:shubhamkr.devapps@gmail.com). We aim to respond within a few working
 days. We do not offer phone support or a guaranteed response time.
 
 ## 12. Liability
