@@ -57,6 +57,5 @@ markdown_extensions:
 extra:
   social: []
 
-# Remove once the documents are lawyer-reviewed and the placeholders are filled (step 5 of the plan).
 extra_css:
-  - stylesheets/draft.css
+  - stylesheets/extra.css

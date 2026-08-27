@@ -1,5 +1,0 @@
-/* Marks unfilled legal values so an unresolved placeholder is impossible to miss on a
-   rendered page. Delete this file, and its extra_css entry, once step 5 of the plan is done. */
-.md-typeset code {
-  word-break: break-word;
-}

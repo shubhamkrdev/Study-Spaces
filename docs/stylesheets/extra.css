@@ -1,0 +1,5 @@
+/* Legal text carries long inline literals — placeholder markers now, email addresses and an
+   entity name later. Without this they overflow the viewport on a phone. */
+.md-typeset code {
+  word-break: break-word;
+}
