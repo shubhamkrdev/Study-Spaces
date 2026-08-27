@@ -1,0 +1,62 @@
+site_name: Study Spaces
+site_description: Legal documents and account help for the Study Spaces Android app
+# Same sentinel as legal_base_url in the app's strings.xml, so one grep finds every place
+# the real domain has to be filled in.
+site_url: https://REPLACE-ME.example/
+
+theme:
+  name: material
+  language: en
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.top
+    - navigation.sections
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.tooltips
+
+nav:
+  - Home: index.md
+  - Privacy Policy: privacy.md
+  - Terms of Service: terms.md
+  - Refund & Cancellation: refunds.md
+  - Delete your account: delete-account.md
+  - Support: support.md
+
+plugins:
+  - search
+  # Renders "last updated" from git history rather than a hand-maintained line that goes stale.
+  # Requires fetch-depth: 0 in the deploy workflow.
+  - git-revision-date-localized:
+      type: date
+      enable_creation_date: false
+      fallback_to_build_date: true
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - toc:
+      permalink: true
+
+extra:
+  social: []
+
+# Remove once the documents are lawyer-reviewed and the placeholders are filled (step 5 of the plan).
+extra_css:
+  - stylesheets/draft.css

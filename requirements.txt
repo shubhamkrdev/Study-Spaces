@@ -1,0 +1,4 @@
+# Range pins rather than exact ones: an invented exact version fails the build in CI,
+# where there is no easy way to check what actually exists on PyPI.
+mkdocs-material>=9.5,<10
+mkdocs-git-revision-date-localized-plugin>=1.2,<2
