@@ -63,10 +63,14 @@ Entered by the owner or staff, not by the student:
 
 Two honest notes about the optional fields:
 
-- **Date of birth and ID proof number are not used by any current feature.** They are stored for
-  possible future identity-verification requirements. They are optional and may be left blank.
-- **ID proof numbers are not masked today.** Any staff member who can open a student record can see
-  the full number. Do not enter an ID number unless you accept that.
+- **Date of birth drives the under-18 check.** Where it makes a member a minor, the form requires
+  guardian details and guardian consent before it will save. It is used for nothing else.
+- **ID proof number is stored for a purpose that does not yet exist** — possible future identity
+  verification. It is optional and may be left blank.
+- **Who can see an ID proof number.** Staff without the owner's explicit grant cannot see it at all.
+  Staff with the grant see only the last four digits on the member's record — but the **edit form
+  shows the full number**, because correcting it requires reading it. Treat the grant as access to
+  the whole number.
 
 ### 3.3 Device and technical data
 
